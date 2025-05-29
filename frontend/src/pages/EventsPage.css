@@ -1,4 +1,4 @@
-﻿/* Reset partiel */
+/* Reset partiel */
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -287,28 +287,69 @@ body {
 .event-meta {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0;
-    min-height: 20px;
-    background: transparent;
-    margin: 0.2rem auto;
+    align-items: flex-start;
+    padding: 1rem 0;
     width: 100%;
+}
+
+.meta-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+
+.date-info {
+    flex: none;
+    margin-right: 0.3rem;
+}
+
+.location-info {
+    flex: none;
+    margin-left: 0.3rem;
 }
 
 .meta-item {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 0.1rem 0;
-    background: transparent;
+    gap: 0.3rem;
     font-size: 0.65rem;
-    color: #2c3e50;
-    white-space: nowrap;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0.4rem;
-    position: relative;
+}
+
+.meta-icon {
+    font-size: 0.9rem;
+    color: #0078d7;
+    margin-right: 0.2rem;
+}
+
+.date-info {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+.location-info {
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.participants-info {
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.status-info {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.guichet-ferme {
+    color: #ff0000 !important;
+    font-weight: bold;
+}
+
+.guichet-ouvert {
+    color: #008000 !important;
+    font-weight: bold;
 }
 
 .meta-item:last-child {

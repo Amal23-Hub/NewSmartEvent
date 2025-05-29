@@ -1,6 +1,6 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FaCalendarAlt, FaMapMarkerAlt, FaUsers, FaPlus, FaSearch, FaArrowRight, FaUserPlus, FaFilter, FaTicketAlt } from 'react-icons/fa';
+import { FaCalendarAlt, FaMapMarkerAlt, FaUsers, FaPlus, FaSearch, FaArrowRight, FaUserPlus, FaFilter, FaTicketAlt, FaBell, FaShoppingCart } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 import { getEvents } from '../services/eventService';
 import { registerToEvent } from '../services/registrationService';
@@ -181,19 +181,28 @@ const EventsPage = () => {
                                     <h2 className="event-title">{event.name}</h2>
                                     <div className="event-meta">
                                         <div className="meta-row">
-                                            <span className="meta-item">
+                                            <span className="meta-item date-info">
                                                 <FaCalendarAlt className="meta-icon" />
                                                 {formatDateOnly(event.date)}
                                             </span>
-                                            <span className="meta-item">
+                                        </div>
+                                        <div className="meta-row">
+                                            <span className="meta-item location-info">
                                                 <FaMapMarkerAlt className="meta-icon" />
                                                 {event.location}
                                             </span>
                                         </div>
                                         <div className="meta-row">
-                                            <span className="meta-item">
+                                            <span className="meta-item participants-info">
                                                 <FaUsers className="meta-icon" />
                                                 {event.registrations?.length || 0} / {event.capacity} participants
+                                            </span>
+                                        </div>
+                                        <div className="meta-row">
+                                            <span className={`meta-item status-info ${isFull ? 'guichet-ferme' : 'guichet-ouvert'}`}>
+                                                <FaTicketAlt className="meta-icon" />
+                                                {isFull ? 'Guichet Fermé' : 'Guichet Ouvert'}
+                                                <FaShoppingCart className="meta-icon" />
                                             </span>
                                         </div>
                                     </div>

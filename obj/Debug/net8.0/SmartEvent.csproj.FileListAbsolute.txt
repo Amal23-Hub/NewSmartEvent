@@ -541,3 +541,4 @@ C:\Users\chega\OneDrive\Desktop\NewSmartEvent-main\NewSmartEvent-main\obj\Debug\
 C:\Users\chega\OneDrive\Desktop\NewSmartEvent-main\NewSmartEvent-main\obj\Debug\net8.0\SmartEvent.pdb
 C:\Users\chega\OneDrive\Desktop\NewSmartEvent-main\NewSmartEvent-main\obj\Debug\net8.0\SmartEvent.genruntimeconfig.cache
 C:\Users\chega\OneDrive\Desktop\NewSmartEvent-main\NewSmartEvent-main\obj\Debug\net8.0\ref\SmartEvent.dll
+C:\Users\chega\OneDrive\Desktop\NewSmartEvent-main\NewSmartEvent-main\obj\Debug\net8.0\SmartEvent.sourcelink.json

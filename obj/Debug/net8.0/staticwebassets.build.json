@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "ThK4MKsAzY65oqf396EQZyV0UlkcVw4eDSiWmhnzsRU=",
+  "Hash": "BLq/zmFfzOcHcFH5X+wxt476oeMicI6zsG4sOvAFH/c=",
   "Source": "SmartEvent",
   "BasePath": "_content/SmartEvent",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SmartEvent\\wwwroot",
+      "Source": "SmartEvent",
+      "ContentRoot": "C:\\Users\\chega\\OneDrive\\Desktop\\NewSmartEvent-main\\NewSmartEvent-main\\wwwroot\\",
+      "BasePath": "_content/SmartEvent",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

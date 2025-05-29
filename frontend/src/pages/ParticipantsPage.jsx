@@ -7,9 +7,27 @@ const ParticipantsPage = () => {
     const [participants, setParticipants] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
+    const [showStats, setShowStats] = useState(false);
 
     // Image par défaut pour les événements
     const defaultEventImage = 'https://img.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg';
+
+    // Calculer les statistiques
+    const stats = {
+        total: participants.length,
+        today: participants.filter(p => {
+            const today = new Date();
+            const regDate = new Date(p.registrationDate);
+            return regDate.toDateString() === today.toDateString();
+        }).length,
+        thisWeek: participants.filter(p => {
+            const today = new Date();
+            const regDate = new Date(p.registrationDate);
+            const diffTime = Math.abs(today - regDate);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            return diffDays <= 7;
+        }).length
+    };
 
     useEffect(() => {
         const fetchEvents = async () => {
@@ -62,40 +80,6 @@ const ParticipantsPage = () => {
             borderRadius: 12,
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
         }}>
-            {selectedEventData && selectedEventData.image && (
-                <div style={{
-                    marginBottom: '2rem',
-                    borderRadius: 8,
-                    overflow: 'hidden',
-                    height: '200px',
-                    position: 'relative'
-                }}>
-                    <img 
-                        src={selectedEventData.image} 
-                        alt={selectedEventData.name}
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover'
-                        }}
-                    />
-                    <div style={{
-                        position: 'absolute',
-                        bottom: 0,
-                        left: 0,
-                        right: 0,
-                        background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
-                        padding: '1rem',
-                        color: 'white'
-                    }}>
-                        <h3 style={{ margin: 0, fontSize: '1.5rem' }}>{selectedEventData.name}</h3>
-                        <div style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
-                            {new Date(selectedEventData.date).toLocaleDateString('fr-FR')}
-                        </div>
-                    </div>
-                </div>
-            )}
-
             <div style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -150,17 +134,87 @@ const ParticipantsPage = () => {
                     </h2>
                 </div>
                 <div style={{
-                    background: '#3498db',
-                    color: 'white',
-                    padding: '0.5rem 1rem',
-                    borderRadius: '20px',
-                    fontSize: '1rem',
-                    fontWeight: 500
+                    display: 'flex',
+                    gap: '1rem',
+                    alignItems: 'center'
                 }}>
-                    {participants.length} participant{participants.length > 1 ? 's' : ''}
+                    <button
+                        onClick={() => setShowStats(!showStats)}
+                        style={{
+                            background: showStats ? '#3498db' : '#f8fafc',
+                            color: showStats ? 'white' : '#3498db',
+                            border: '2px solid #3498db',
+                            padding: '0.5rem 1rem',
+                            borderRadius: '20px',
+                            cursor: 'pointer',
+                            transition: 'all 0.3s ease',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '0.5rem'
+                        }}
+                    >
+                        <span style={{ fontSize: '1.2rem' }}>📊</span>
+                        {showStats ? 'Masquer les stats' : 'Voir les stats'}
+                    </button>
+                    <div style={{
+                        background: '#3498db',
+                        color: 'white',
+                        padding: '0.5rem 1rem',
+                        borderRadius: '20px',
+                        fontSize: '1rem',
+                        fontWeight: 500
+                    }}>
+                        {participants.length} participant{participants.length > 1 ? 's' : ''}
+                    </div>
                 </div>
             </div>
             
+            {showStats && (
+                <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(3, 1fr)',
+                    gap: '1rem',
+                    marginBottom: '2rem',
+                    padding: '1rem',
+                    background: '#f8fafc',
+                    borderRadius: 8
+                }}>
+                    <div style={{
+                        background: 'white',
+                        padding: '1rem',
+                        borderRadius: 8,
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                        textAlign: 'center'
+                    }}>
+                        <div style={{ fontSize: '2rem', color: '#3498db', marginBottom: '0.5rem' }}>👥</div>
+                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.total}</div>
+                        <div style={{ color: '#718096' }}>Total</div>
+                    </div>
+                    <div style={{
+                        background: 'white',
+                        padding: '1rem',
+                        borderRadius: 8,
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                        textAlign: 'center'
+                    }}>
+                        <div style={{ fontSize: '2rem', color: '#3498db', marginBottom: '0.5rem' }}>📅</div>
+                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.today}</div>
+                        <div style={{ color: '#718096' }}>Aujourd'hui</div>
+                    </div>
+                    <div style={{
+                        background: 'white',
+                        padding: '1rem',
+                        borderRadius: 8,
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                        textAlign: 'center'
+                    }}>
+                        <div style={{ fontSize: '2rem', color: '#3498db', marginBottom: '0.5rem' }}>📊</div>
+                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.thisWeek}</div>
+                        <div style={{ color: '#718096' }}>Cette semaine</div>
+                    </div>
+                </div>
+            )}
+
             {error && (
                 <div style={{
                     color: '#e74c3c',
@@ -169,6 +223,40 @@ const ParticipantsPage = () => {
                     borderRadius: 6,
                     marginBottom: '1rem'
                 }}>{error}</div>
+            )}
+
+            {selectedEventData && selectedEventData.imageUrl && (
+                <div style={{
+                    marginBottom: '2rem',
+                    borderRadius: 8,
+                    overflow: 'hidden',
+                    height: '200px',
+                    position: 'relative'
+                }}>
+                    <img 
+                        src={selectedEventData.imageUrl} 
+                        alt={selectedEventData.name}
+                        style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover'
+                        }}
+                    />
+                    <div style={{
+                        position: 'absolute',
+                        bottom: 0,
+                        left: 0,
+                        right: 0,
+                        background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
+                        padding: '1rem',
+                        color: 'white'
+                    }}>
+                        <h3 style={{ margin: 0, fontSize: '1.5rem' }}>{selectedEventData.name}</h3>
+                        <div style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
+                            {new Date(selectedEventData.date).toLocaleDateString('fr-FR')}
+                        </div>
+                    </div>
+                </div>
             )}
 
             <div style={{
@@ -276,33 +364,50 @@ const ParticipantsPage = () => {
             ) : participants.length > 0 ? (
                 <div style={{
                     display: 'grid',
-                    gap: '1rem'
+                    gap: '0.75rem'
                 }}>
                     {participants.map((p, idx) => (
                         <div key={idx} style={{
-                            padding: '1rem',
+                            padding: '0.75rem',
                             background: '#fff',
-                            borderRadius: 8,
+                            borderRadius: 6,
                             border: '1px solid #e2e8f0',
-                            transition: 'all 0.2s ease',
+                            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
                             display: 'flex',
                             alignItems: 'center',
-                            gap: '1rem',
+                            gap: '0.75rem',
+                            animation: `slideIn 0.5s ease-out ${idx * 0.1}s both`,
+                            '@keyframes slideIn': {
+                                '0%': {
+                                    opacity: 0,
+                                    transform: 'translateY(20px)'
+                                },
+                                '100%': {
+                                    opacity: 1,
+                                    transform: 'translateY(0)'
+                                }
+                            },
                             ':hover': {
-                                background: '#f8fafc'
+                                background: '#f8fafc',
+                                transform: 'translateX(10px)',
+                                borderColor: '#3498db'
                             }
                         }}>
                             <div style={{
-                                width: '40px',
-                                height: '40px',
+                                width: '32px',
+                                height: '32px',
                                 borderRadius: '50%',
                                 background: '#3498db',
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 color: 'white',
-                                fontSize: '1.1rem',
-                                fontWeight: 'bold'
+                                fontSize: '0.9rem',
+                                fontWeight: 'bold',
+                                transition: 'transform 0.3s ease',
+                                ':hover': {
+                                    transform: 'scale(1.1)'
+                                }
                             }}>
                                 {p.email.charAt(0).toUpperCase()}
                             </div>
@@ -310,14 +415,16 @@ const ParticipantsPage = () => {
                                 <div style={{
                                     fontWeight: 600,
                                     color: '#2c3e50',
-                                    fontSize: '1rem',
-                                    marginBottom: '0.25rem'
+                                    fontSize: '0.85rem',
+                                    marginBottom: '0.15rem',
+                                    transition: 'color 0.3s ease'
                                 }}>
                                     {p.email}
                                 </div>
                                 <div style={{
                                     color: '#718096',
-                                    fontSize: '0.9rem'
+                                    fontSize: '0.75rem',
+                                    transition: 'color 0.3s ease'
                                 }}>
                                     Inscrit le {p.registrationDate ? new Date(p.registrationDate).toLocaleDateString('fr-FR') : ''}
                                 </div>

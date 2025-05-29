@@ -46,58 +46,58 @@ const HomePage = () => {
             </section>
 
             <section className="features">
-                <h2 className="section-title">Pourquoi choisir SmartEvents ?</h2>
-                <div className="feature-grid">
-                    <div className="feature-card">
-                        <div className="feature-icon">
+                <h2 className="section-title" style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Pourquoi choisir SmartEvents ?</h2>
+                <div className="feature-grid" style={{ gap: '1rem', padding: '0 1rem' }}>
+                    <div className="feature-card" style={{ padding: '1rem' }}>
+                        <div className="feature-icon" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>
                             <FaCalendarAlt />
                         </div>
-                        <h3>Événements variés</h3>
-                        <p>Conférences, ateliers, rencontres culturelles et bien plus encore. Une large sélection d'événements pour tous les goûts.</p>
+                        <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Événements variés</h3>
+                        <p style={{ fontSize: '0.9rem', lineHeight: '1.4' }}>Conférences, ateliers, rencontres culturelles et bien plus encore. Une large sélection d'événements pour tous les goûts.</p>
                     </div>
-                    <div className="feature-card">
-                        <div className="feature-icon">
+                    <div className="feature-card" style={{ padding: '1rem' }}>
+                        <div className="feature-icon" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>
                             <FaTicketAlt />
                         </div>
-                        <h3>Inscription rapide</h3>
-                        <p>Inscrivez-vous en quelques clics seulement, sans tracas. Une expérience utilisateur fluide et intuitive.</p>
+                        <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Inscription rapide</h3>
+                        <p style={{ fontSize: '0.9rem', lineHeight: '1.4' }}>Inscrivez-vous en quelques clics seulement, sans tracas. Une expérience utilisateur fluide et intuitive.</p>
                     </div>
-                    <div className="feature-card">
-                        <div className="feature-icon">
+                    <div className="feature-card" style={{ padding: '1rem' }}>
+                        <div className="feature-icon" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>
                             <FaUsers />
                         </div>
-                        <h3>Gestion simplifiée</h3>
-                        <p>Organisez et suivez vos événements en toute simplicité. Des outils puissants pour une gestion efficace.</p>
+                        <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Gestion simplifiée</h3>
+                        <p style={{ fontSize: '0.9rem', lineHeight: '1.4' }}>Organisez et suivez vos événements en toute simplicité. Des outils puissants pour une gestion efficace.</p>
                     </div>
                 </div>
             </section>
 
             <section className="how-it-works">
-                <h2 className="section-title">Comment ça marche ?</h2>
-                <div className="steps-container">
-                    <div className="step">
-                        <div className="step-number">1</div>
-                        <div className="step-icon">
+                <h2 className="section-title" style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Comment ça marche ?</h2>
+                <div className="steps-container" style={{ gap: '1rem', padding: '0 1rem' }}>
+                    <div className="step" style={{ padding: '1rem' }}>
+                        <div className="step-number" style={{ fontSize: '1.2rem', width: '2rem', height: '2rem' }}>1</div>
+                        <div className="step-icon" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>
                             <FaSearch />
                         </div>
-                        <h3>Découvrez</h3>
-                        <p>Parcourez notre catalogue d'événements et trouvez celui qui vous correspond</p>
+                        <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Découvrez</h3>
+                        <p style={{ fontSize: '0.9rem', lineHeight: '1.4' }}>Parcourez notre catalogue d'événements et trouvez celui qui vous correspond</p>
                     </div>
-                    <div className="step">
-                        <div className="step-number">2</div>
-                        <div className="step-icon">
+                    <div className="step" style={{ padding: '1rem' }}>
+                        <div className="step-number" style={{ fontSize: '1.2rem', width: '2rem', height: '2rem' }}>2</div>
+                        <div className="step-icon" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>
                             <FaTicketAlt />
                         </div>
-                        <h3>Participez</h3>
-                        <p>Inscrivez-vous en quelques clics et recevez votre confirmation</p>
+                        <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Participez</h3>
+                        <p style={{ fontSize: '0.9rem', lineHeight: '1.4' }}>Inscrivez-vous en quelques clics et recevez votre confirmation</p>
                     </div>
-                    <div className="step">
-                        <div className="step-number">3</div>
-                        <div className="step-icon">
+                    <div className="step" style={{ padding: '1rem' }}>
+                        <div className="step-number" style={{ fontSize: '1.2rem', width: '2rem', height: '2rem' }}>3</div>
+                        <div className="step-icon" style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>
                             <FaClock />
                         </div>
-                        <h3>Vivez</h3>
-                        <p>Participez à l'événement et créez des souvenirs inoubliables</p>
+                        <h3 style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>Vivez</h3>
+                        <p style={{ fontSize: '0.9rem', lineHeight: '1.4' }}>Participez à l'événement et créez des souvenirs inoubliables</p>
                     </div>
                 </div>
             </section>

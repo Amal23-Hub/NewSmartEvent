@@ -143,25 +143,26 @@ const ParticipantsPage = () => {
                         style={{
                             background: showStats ? '#3498db' : '#f8fafc',
                             color: showStats ? 'white' : '#3498db',
-                            border: '2px solid #3498db',
-                            padding: '0.5rem 1rem',
-                            borderRadius: '20px',
+                            border: '1px solid #3498db',
+                            padding: '0.35rem 0.75rem',
+                            borderRadius: '15px',
                             cursor: 'pointer',
                             transition: 'all 0.3s ease',
                             display: 'flex',
                             alignItems: 'center',
-                            gap: '0.5rem'
+                            gap: '0.35rem',
+                            fontSize: '0.9rem'
                         }}
                     >
-                        <span style={{ fontSize: '1.2rem' }}>📊</span>
+                        <span style={{ fontSize: '1rem' }}>📊</span>
                         {showStats ? 'Masquer les stats' : 'Voir les stats'}
                     </button>
                     <div style={{
                         background: '#3498db',
                         color: 'white',
-                        padding: '0.5rem 1rem',
-                        borderRadius: '20px',
-                        fontSize: '1rem',
+                        padding: '0.35rem 0.75rem',
+                        borderRadius: '15px',
+                        fontSize: '0.9rem',
                         fontWeight: 500
                     }}>
                         {participants.length} participant{participants.length > 1 ? 's' : ''}
@@ -171,46 +172,49 @@ const ParticipantsPage = () => {
             
             {showStats && (
                 <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(3, 1fr)',
-                    gap: '1rem',
-                    marginBottom: '2rem',
-                    padding: '1rem',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    gap: '0.5rem',
+                    marginBottom: '1rem',
+                    padding: '0.5rem',
                     background: '#f8fafc',
                     borderRadius: 8
                 }}>
                     <div style={{
+                        flex: 1,
                         background: 'white',
-                        padding: '1rem',
-                        borderRadius: 8,
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                        padding: '0.5rem',
+                        borderRadius: 6,
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
                         textAlign: 'center'
                     }}>
-                        <div style={{ fontSize: '2rem', color: '#3498db', marginBottom: '0.5rem' }}>👥</div>
-                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.total}</div>
-                        <div style={{ color: '#718096' }}>Total</div>
+                        <div style={{ fontSize: '1.2rem', color: '#3498db', marginBottom: '0.25rem' }}>👥</div>
+                        <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.total}</div>
+                        <div style={{ color: '#718096', fontSize: '0.8rem' }}>Total</div>
                     </div>
                     <div style={{
+                        flex: 1,
                         background: 'white',
-                        padding: '1rem',
-                        borderRadius: 8,
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                        padding: '0.5rem',
+                        borderRadius: 6,
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
                         textAlign: 'center'
                     }}>
-                        <div style={{ fontSize: '2rem', color: '#3498db', marginBottom: '0.5rem' }}>📅</div>
-                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.today}</div>
-                        <div style={{ color: '#718096' }}>Aujourd'hui</div>
+                        <div style={{ fontSize: '1.2rem', color: '#3498db', marginBottom: '0.25rem' }}>📅</div>
+                        <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.today}</div>
+                        <div style={{ color: '#718096', fontSize: '0.8rem' }}>Aujourd'hui</div>
                     </div>
                     <div style={{
+                        flex: 1,
                         background: 'white',
-                        padding: '1rem',
-                        borderRadius: 8,
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                        padding: '0.5rem',
+                        borderRadius: 6,
+                        boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
                         textAlign: 'center'
                     }}>
-                        <div style={{ fontSize: '2rem', color: '#3498db', marginBottom: '0.5rem' }}>📊</div>
-                        <div style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.thisWeek}</div>
-                        <div style={{ color: '#718096' }}>Cette semaine</div>
+                        <div style={{ fontSize: '1.2rem', color: '#3498db', marginBottom: '0.25rem' }}>📊</div>
+                        <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: '#2c3e50' }}>{stats.thisWeek}</div>
+                        <div style={{ color: '#718096', fontSize: '0.8rem' }}>Cette semaine</div>
                     </div>
                 </div>
             )}

@@ -1,0 +1,845 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\registrationform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\registrationform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\participantslist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\participantslist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.core\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.core\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.api\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.api\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\eventspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\eventspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\eventspage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\eventspage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\public\\assets\\logo-transparent.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\public\\assets\\logo-transparent.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.data\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.data\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.core\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.core\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\eventdetailpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\eventdetailpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\tailwind.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\eventlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\eventlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\eventdetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\eventdetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\setuptests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\setuptests.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\reportwebvitals.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\reportwebvitals.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\public\\logo512.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\public\\logo512.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\public\\logo192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\public\\logo192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.data\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.data\\repositories\\registrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\services\\eventservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\services\\eventservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\createeventpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\createeventpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\eventlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\eventlist.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.services\\interfaces\\iregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.services\\interfaces\\iregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\homepage.jsx||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\homepage.jsx||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\editeventpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\editeventpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\pages\\admineventspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\pages\\admineventspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\src\\components\\eventform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\src\\components\\eventform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\frontend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:frontend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.services\\interfaces\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.services\\interfaces\\iregistrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.services\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.services\\interfaces\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|c:\\users\\dell i7 8\\source\\repos\\smartevent\\smartevent.services\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0332FA41-0558-49F0-9702-119C50485F51}|SmartEvent.csproj|solutionrelative:smartevent.services\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrationForm.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\RegistrationForm.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\RegistrationForm.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\RegistrationForm.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\RegistrationForm.jsx",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:02:28.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Models\\Registration.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Registration.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Models\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:22:50.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParticipantsList.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\ParticipantsList.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\ParticipantsList.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\ParticipantsList.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\ParticipantsList.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:02:45.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationForm.css",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\RegistrationForm.css",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\RegistrationForm.css",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\RegistrationForm.css",
+              "RelativeToolTip": "frontend\\src\\components\\RegistrationForm.css",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAYwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-12T04:26:16.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\index.js",
+              "RelativeDocumentMoniker": "frontend\\src\\index.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\index.js",
+              "RelativeToolTip": "frontend\\src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-10T23:08:39.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\index.html",
+              "RelativeDocumentMoniker": "frontend\\public\\index.html",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\index.html",
+              "RelativeToolTip": "frontend\\public\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-10T23:06:31.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EventsPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\EventsPage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EventsPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\EventsPage.jsx",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAqwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:04:29.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\App.js",
+              "RelativeDocumentMoniker": "frontend\\src\\App.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\App.js",
+              "RelativeToolTip": "frontend\\src\\App.js",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwBQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-10T22:50:17.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationsController.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\RegistrationsController.cs",
+              "RelativeDocumentMoniker": "SmartEvent.API\\Controllers\\RegistrationsController.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\RegistrationsController.cs",
+              "RelativeToolTip": "SmartEvent.API\\Controllers\\RegistrationsController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:33:10.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\HomePage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\HomePage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\HomePage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\HomePage.jsx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:04:11.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventsPage.css",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EventsPage.css",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\EventsPage.css",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EventsPage.css",
+              "RelativeToolTip": "frontend\\src\\pages\\EventsPage.css",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAcwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-06T16:40:24.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomePage.css",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\HomePage.css",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\HomePage.css",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\HomePage.css",
+              "RelativeToolTip": "frontend\\src\\pages\\HomePage.css",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAcwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-12T03:10:20.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\App.css",
+              "RelativeDocumentMoniker": "frontend\\src\\App.css",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\App.css",
+              "RelativeToolTip": "frontend\\src\\App.css",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAYwHUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-10T22:48:08.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "logo-transparent.png -  [Fran\u00E7ais (France)] - PNG [1200x1200, 32\u00A0bits, PNG]",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\assets\\logo-transparent.png",
+              "RelativeDocumentMoniker": "frontend\\public\\assets\\logo-transparent.png",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\assets\\logo-transparent.png -  [Fran\u00E7ais (France)] - PNG [1200x1200, 32\u00A0bits, PNG]",
+              "RelativeToolTip": "frontend\\public\\assets\\logo-transparent.png -  [Fran\u00E7ais (France)] - PNG [1200x1200, 32\u00A0bits, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-06T23:35:31.274Z",
+              "EditorCaption": " -  [Fran\u00E7ais (France)] - PNG [1200x1200, 32\u00A0bits, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:50:58.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Event.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Models\\Event.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:22:14.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "SmartEvent.API\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "SmartEvent.API\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAqwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:32:19.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowIYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:33:00.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventDetailPage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EventDetailPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\EventDetailPage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EventDetailPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\EventDetailPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:05:09.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "tailwind.config.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\tailwind.config.js",
+              "RelativeDocumentMoniker": "frontend\\tailwind.config.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\tailwind.config.js",
+              "RelativeToolTip": "frontend\\tailwind.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-10T23:12:53.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "postcss.config.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\postcss.config.js",
+              "RelativeDocumentMoniker": "frontend\\postcss.config.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\postcss.config.js",
+              "RelativeToolTip": "frontend\\postcss.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-10T23:13:22.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\Navbar.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\Navbar.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\Navbar.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:03:17.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EventList.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventList.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\EventList.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventList.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\EventList.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:00:23.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EventDetail.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventDetail.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\EventDetail.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventDetail.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\EventDetail.jsx",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwDAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:21:08.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "setupTests.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\setupTests.js",
+              "RelativeDocumentMoniker": "frontend\\src\\setupTests.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\setupTests.js",
+              "RelativeToolTip": "frontend\\src\\setupTests.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-06T15:45:02.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginPage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\LoginPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\LoginPage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\LoginPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\LoginPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T03:17:50.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "reportWebVitals.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\reportWebVitals.js",
+              "RelativeDocumentMoniker": "frontend\\src\\reportWebVitals.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\reportWebVitals.js",
+              "RelativeToolTip": "frontend\\src\\reportWebVitals.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-06T15:45:00.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\package.json",
+              "RelativeDocumentMoniker": "frontend\\package.json",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\package.json",
+              "RelativeToolTip": "frontend\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-11T01:06:43.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\RegistrationService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\RegistrationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:52:59.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T16:25:20.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "logo192.png -  [Fran\u00E7ais (France)] - PNG [192x192, 32\u00A0bits, PNG]",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\logo192.png",
+              "RelativeDocumentMoniker": "frontend\\public\\logo192.png",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\logo192.png -  [Fran\u00E7ais (France)] - PNG [192x192, 32\u00A0bits, PNG]",
+              "RelativeToolTip": "frontend\\public\\logo192.png -  [Fran\u00E7ais (France)] - PNG [192x192, 32\u00A0bits, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-06T14:41:58.86Z",
+              "EditorCaption": " -  [Fran\u00E7ais (France)] - PNG [192x192, 32\u00A0bits, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "logo512.png -  [Fran\u00E7ais (France)] - PNG [512x512, 32\u00A0bits, PNG]",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\logo512.png",
+              "RelativeDocumentMoniker": "frontend\\public\\logo512.png",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\public\\logo512.png -  [Fran\u00E7ais (France)] - PNG [512x512, 32\u00A0bits, PNG]",
+              "RelativeToolTip": "frontend\\public\\logo512.png -  [Fran\u00E7ais (France)] - PNG [512x512, 32\u00A0bits, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-06T14:42:02.277Z",
+              "EditorCaption": " -  [Fran\u00E7ais (France)] - PNG [512x512, 32\u00A0bits, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\RegistrationRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Repositories\\RegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\RegistrationRepository.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Repositories\\RegistrationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:51:15.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "eventService.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\services\\eventService.js",
+              "RelativeDocumentMoniker": "frontend\\src\\services\\eventService.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\services\\eventService.js",
+              "RelativeToolTip": "frontend\\src\\services\\eventService.js",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-12T02:05:35.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CreateEventPage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\CreateEventPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\CreateEventPage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\CreateEventPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\CreateEventPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T02:04:49.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EventList.css",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventList.css",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\EventList.css",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventList.css",
+              "RelativeToolTip": "frontend\\src\\components\\EventList.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-12T04:20:15.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\services\\api.js",
+              "RelativeDocumentMoniker": "frontend\\src\\services\\api.js",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\services\\api.js",
+              "RelativeToolTip": "frontend\\src\\services\\api.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-11T00:13:45.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IRegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IRegistrationService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\Interfaces\\IRegistrationService.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IRegistrationService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\Interfaces\\IRegistrationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:40:32.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\index.css",
+              "RelativeDocumentMoniker": "frontend\\src\\index.css",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\index.css",
+              "RelativeToolTip": "frontend\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-12T03:20:40.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\HomePage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\HomePage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\HomePage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\HomePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T03:48:37.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EditEventPage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EditEventPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\EditEventPage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\EditEventPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\EditEventPage.jsx",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAuwFQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T03:02:15.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AdminEventsPage.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\AdminEventsPage.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\AdminEventsPage.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\pages\\AdminEventsPage.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\AdminEventsPage.jsx",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T03:00:53.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EventForm.jsx",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventForm.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\EventForm.jsx",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\src\\components\\EventForm.jsx",
+              "RelativeToolTip": "frontend\\src\\components\\EventForm.jsx",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwEgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-12T03:00:05.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\README.md",
+              "RelativeDocumentMoniker": "frontend\\README.md",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\frontend\\README.md",
+              "RelativeToolTip": "frontend\\README.md",
+              "ViewState": "AgIAAFEAAAAAAAAAAADwv2IAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-10T23:14:26.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SmartEvent.csproj",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.csproj",
+              "RelativeDocumentMoniker": "SmartEvent.csproj",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.csproj",
+              "RelativeToolTip": "SmartEvent.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T16:19:10.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IRegistrationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IRegistrationRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\Interfaces\\IRegistrationRepository.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IRegistrationRepository.cs",
+              "RelativeToolTip": "SmartEvent.Services\\Interfaces\\IRegistrationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T21:01:00.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\Interfaces\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IEventRepository.cs",
+              "RelativeToolTip": "SmartEvent.Services\\Interfaces\\IEventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:57:39.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\EventService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\EventService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\EventService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:52:40.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Data\\AppDbContext.cs",
+              "RelativeToolTip": "SmartEvent.Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:23:36.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SmartEvent.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "SmartEvent.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.csproj.Backup.tmp",
+              "RelativeToolTip": "SmartEvent.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-08T20:19:19.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\Interfaces\\IEventService.cs",
+              "ToolTip": "C:\\Users\\dell i7 8\\source\\repos\\SmartEvent\\SmartEvent.Services\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\Interfaces\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:40:06.391Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

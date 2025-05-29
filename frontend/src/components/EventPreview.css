@@ -1,0 +1,132 @@
+.event-preview {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.event-preview-header {
+    position: relative;
+}
+
+.event-preview-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.event-preview-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.event-preview-info {
+    padding: 2rem;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.9), white);
+}
+
+.event-preview-info h2 {
+    color: #2c3e50;
+    margin: 0 0 1rem 0;
+    font-size: 1.8rem;
+}
+
+.event-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.event-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4a5568;
+}
+
+.event-meta-item svg {
+    color: #3498db;
+}
+
+.online-event {
+    color: #3498db;
+    font-weight: 500;
+}
+
+.event-preview-content {
+    padding: 2rem;
+}
+
+.event-section {
+    margin-bottom: 2rem;
+}
+
+.event-section:last-child {
+    margin-bottom: 0;
+}
+
+.event-section h3 {
+    color: #2c3e50;
+    margin: 0 0 1rem 0;
+    font-size: 1.4rem;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.event-section p {
+    color: #4a5568;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.event-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.event-detail-item h4 {
+    color: #2c3e50;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.event-detail-item p {
+    margin: 0;
+}
+
+.event-detail-item a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.event-detail-item a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .event-preview-image {
+        height: 200px;
+    }
+
+    .event-preview-info {
+        padding: 1.5rem;
+    }
+
+    .event-preview-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .event-preview-content {
+        padding: 1.5rem;
+    }
+
+    .event-meta {
+        grid-template-columns: 1fr;
+    }
+} 

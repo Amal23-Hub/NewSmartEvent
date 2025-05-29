@@ -1,0 +1,51 @@
+.create-event-page {
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: var(--background-light);
+}
+
+.create-event-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--background-white);
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.create-event-page h1 {
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: var(--font-size-2xl);
+}
+
+.error-message {
+    background-color: var(--error-light);
+    color: var(--error-color);
+    padding: 1rem;
+    border-radius: var(--border-radius-md);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--error-color);
+}
+
+.error-message i {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .create-event-page {
+        padding: 1rem;
+    }
+
+    .create-event-container {
+        padding: 1.5rem;
+    }
+
+    .create-event-page h1 {
+        font-size: var(--font-size-xl);
+    }
+} 

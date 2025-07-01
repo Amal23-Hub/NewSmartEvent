@@ -1,7 +1,9 @@
-﻿import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { FaCalendarAlt, FaUsers, FaTicketAlt, FaMapMarkerAlt, FaClock, FaSearch } from 'react-icons/fa';
+import { FaCalendarAlt, FaUsers, FaTicketAlt, FaMapMarkerAlt, FaClock, FaSearch, FaShoppingCart } from 'react-icons/fa';
 import './HomePage.css';
+import { getEvents } from '../services/eventService';
+import { API_BASE_URL } from '../config';
 
 const HomePage = () => {
     return (
@@ -40,6 +42,11 @@ const HomePage = () => {
                             <FaMapMarkerAlt className="stat-icon" />
                             <span className="stat-number">10+</span>
                             <span className="stat-label">Villes</span>
+                        </div>
+                        <div className="stat-item">
+                            <FaShoppingCart className="stat-icon" />
+                            <span className="stat-number">200+</span>
+                            <span className="stat-label">Billets dans le panier</span>
                         </div>
                     </div>
                 </div>
